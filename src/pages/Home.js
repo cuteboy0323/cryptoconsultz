@@ -17,10 +17,10 @@ const Home = () => {
                 <Container>
                     <Box className="logo-banner">
                         <Box component="img" src={Logo} alt="logo" />
-                        <Typography variant="h4" className="title">
+                        <Typography variant="h2" className="title">
                             CryptoConsultz
                         </Typography>
-                        <Typography variant="h6" className="sub-title">
+                        <Typography variant="h6" color="secondary" className="sub-title">
                             Blockchain & Digital Currency Consulting Services
                         </Typography>
                     </Box>

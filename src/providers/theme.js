@@ -27,7 +27,7 @@ const MaterialThemeProvider = ({ children }) => {
             }
         },
         typography: {
-            fontFamily: "'DM Sans', sans-serif",
+            fontFamily: "'Oxanium', sans-serif",
             fontSize: 14,
         },
         components: {

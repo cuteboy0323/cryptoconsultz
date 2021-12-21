@@ -84,10 +84,14 @@ const useStyles = makeStyles((theme) => ({
                 justifyContent: "center",
                 alignItems: "center",
                 "& img": {
-                    marginBottom: theme.spacing(3)
+                    marginBottom: theme.spacing(6),
+                    width: theme.spacing(25)
                 },
                 "& .title": {
-                    fontWeight: "bold"
+                    fontFamily: "'grinddemolished'"
+                },
+                "& .sub-title": {
+                    fontFamily: "'grinddemolished'"
                 }
             }
         }
