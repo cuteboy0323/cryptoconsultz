@@ -343,6 +343,9 @@ const useStyles = makeStyles((theme) => ({
                 "& .question": {
                     paddingTop: theme.spacing(10)
                 },
+                "& .submit-comment": {
+                    paddingTop: theme.spacing(10)
+                },
                 "& .grid": {
                     paddingTop: theme.spacing(5),
 
