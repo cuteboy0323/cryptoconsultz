@@ -13,6 +13,7 @@ import ListItem from '@mui/material/Grid';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import TextField from '@mui/material/TextField';
 
 import useStyles from "../assets/styles";
 
@@ -146,7 +147,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Schedule
                                         </Button>
                                     </Box>
@@ -218,7 +219,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Schedule
                                         </Button>
                                     </Box>
@@ -268,7 +269,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Schedule
                                         </Button>
                                     </Box>
@@ -410,7 +411,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Shop
                                         </Button>
                                     </Box>
@@ -562,7 +563,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Shop
                                         </Button>
                                     </Box>
@@ -640,7 +641,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Schedule
                                         </Button>
                                     </Box>
@@ -711,7 +712,7 @@ const SessionPackages = () => {
                                                 </ListItemButton>
                                             </ListItem>
                                         </List>
-                                        <Button variant="outlined" fullWidth>
+                                        <Button variant="contained" color="secondary" fullWidth size="large">
                                             Schedule
                                         </Button>
                                     </Box>
@@ -744,7 +745,7 @@ const SessionPackages = () => {
                                             target="_blank"
                                             href="https://form.jotform.com/210511577701044"
                                         >
-                                            <Button variant="outlined" fullWidth>
+                                            <Button variant="contained" color="secondary" fullWidth size="large">
                                                 Shop Webinars
                                             </Button>
                                         </Link>
@@ -771,11 +772,131 @@ const SessionPackages = () => {
                                             target="_blank"
                                             href="https://calendly.com/cryptoconsultz/quickconsult"
                                         >
-                                            <Button variant="outlined" fullWidth>
+                                            <Button variant="contained" color="secondary" fullWidth size="large">
                                                 Schedule
                                             </Button>
                                         </Link>
                                     </Box>
+                                </Grid>
+                            </Grid>
+                        </Box>
+                        <Box component="submit-comment">
+                            <Grid container className="grid" spacing={4}>
+                                <Grid item xs={12} sm={6}>
+                                    <Typography
+                                        color="textSecondary"
+                                        className="caption"
+                                    >
+                                    </Typography>
+                                    <Typography
+                                        color="secondary"
+                                        className="title"
+                                        variant="h5"
+                                    >
+                                        Not ready to commit?
+                                    </Typography>
+                                    <Box className="content">
+                                        <Typography color="textSecondary">
+                                            Due to high-demand, our sessions are limited.  If you are interested in future sessions or have questions, fill out this form.  We keep our customer satisfaction a priority and prioritize accordingly.  Response times may be delayed for general inquiries.
+                                        </Typography>
+                                        <Box component="br" />
+                                        <Stack direction="row" justifyContent="space-between" spacing={2}>
+                                            <TextField
+                                                required
+                                                fullWidth
+                                                label="First Name"
+                                                color="secondary"
+                                            />
+                                            <TextField
+                                                required
+                                                fullWidth
+                                                label="Last Name"
+                                                color="secondary"
+                                            />
+                                        </Stack>
+                                        <TextField
+                                            required
+                                            fullWidth
+                                            label="Email"
+                                            margin="normal"
+                                            color="secondary"
+                                        />
+                                        <TextField
+                                            required
+                                            fullWidth
+                                            margin="normal"
+                                            label="Comment"
+                                            color="secondary"
+                                        />
+                                    </Box>
+                                    <Box component="br" />
+                                    <Button variant="contained" color="secondary" fullWidth size="large">
+                                        Submit
+                                    </Button>
+                                </Grid>
+                                <Grid item xs={12} sm={6}>
+                                    <Typography
+                                        color="textSecondary"
+                                        className="caption"
+                                    >
+                                    </Typography>
+                                    <Typography
+                                        color="secondary"
+                                        className="title"
+                                        variant="h5"
+                                    >
+                                        Apply for a discount.
+                                    </Typography>
+                                    <Box className="content">
+                                        <Typography color="textSecondary">
+                                            It's our mission at CryptoConsultz to provide access to cryptocurrency and blockchain support, regardless of your financial status.
+                                        </Typography>
+                                        <Box component="br" />
+                                        <Typography color="textSecondary">
+                                            Consider our webinars for 60 minutes of premium content at a much lower cost than a full consult.
+                                        </Typography>
+                                        <Box component="br" />
+                                        <Typography color="textSecondary">
+                                            If these options aren't available for you, due to your financial situation, please fill out this form. Explain your circumstances and we'll review your application.  If your specific situation meets our criteria and we're confident we'll be able to help you, you'll receive notification of approval at a reduced rate or free of charge.  We weave a number of these consultations throughout the week in order to fulfill our mission of continued access to cryptocurrency and blockchain technology for all.
+                                        </Typography>
+                                        <Box component="br" />
+                                        <Typography color="textSecondary">
+                                            Due to high demand, denied applications will not necessarily receive notification. We are able to approve a small number of applications compared to the demand. Please do not make further inquires into the status of your application or it will be denied.  We will keep applications in our database and if/when we are able to help you'll be the first to know!
+                                        </Typography>
+                                        <Box component="br" />
+                                        <Stack direction="row" justifyContent="space-between" spacing={2}>
+                                            <TextField
+                                                required
+                                                fullWidth
+                                                label="First Name"
+                                                color="secondary"
+                                            />
+                                            <TextField
+                                                required
+                                                fullWidth
+                                                label="Last Name"
+                                                color="secondary"
+                                            />
+                                        </Stack>
+                                        <TextField
+                                            required
+                                            fullWidth
+                                            label="Email"
+                                            margin="normal"
+                                            color="secondary"
+                                        />
+                                        <TextField
+                                            required
+                                            fullWidth
+                                            margin="normal"
+                                            label="Comment"
+                                            color="secondary"
+                                        />
+                                    </Box>
+                                    <Box component="br" />
+                                    <Button variant="contained" color="secondary" fullWidth size="large">
+                                        Schedule
+                                    </Button>
                                 </Grid>
                             </Grid>
                         </Box>
