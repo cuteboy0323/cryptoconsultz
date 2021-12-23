@@ -58,24 +58,54 @@ const SessionPackages = () => {
                         alignItems="center"
                         spacing={2}
                     >
-                        <Button variant="outlined">
-                            New Clients
-                        </Button>
-                        <Button variant="outlined">
-                            Packages
-                        </Button>
-                        <Button variant="outlined">
-                            Clients
-                        </Button>
-                        <Button variant="outlined">
-                            Webinars
-                        </Button>
-                        <Button variant="outlined">
-                            Discounts
-                        </Button>
+                        <Link
+                            underline="none"
+                            color="inherit"
+                            href="#new-client"
+                        >
+                            <Button variant="contained" color="secondary" fullWidth size="large">
+                                New Clients
+                            </Button>
+                        </Link>
+                        <Link
+                            underline="none"
+                            color="inherit"
+                            href="#multi-session"
+                        >
+                            <Button variant="contained" color="secondary" fullWidth size="large">
+                                Packages
+                            </Button>
+                        </Link>
+                        <Link
+                            underline="none"
+                            color="inherit"
+                            href="#return"
+                        >
+                            <Button variant="contained" color="secondary" fullWidth size="large">
+                                Clients
+                            </Button>
+                        </Link>
+                        <Link
+                            underline="none"
+                            color="inherit"
+                            href="#question"
+                        >
+                            <Button variant="contained" color="secondary" fullWidth size="large">
+                                Webinars
+                            </Button>
+                        </Link>
+                        <Link
+                            underline="none"
+                            color="inherit"
+                            href="#discounts"
+                        >
+                            <Button variant="contained" color="secondary" fullWidth size="large">
+                                Discounts
+                            </Button>
+                        </Link>
                     </Stack>
                     <Box className="sections">
-                        <Box component="section" className="new-clients">
+                        <Box component="section" id="new-clients" className="new-clients">
                             <Typography variant="h4" className={classes.titleCenter}>
                                 New <Box component="span">Clients</Box>
                             </Typography>
@@ -276,7 +306,7 @@ const SessionPackages = () => {
                                 </Grid>
                             </Grid>
                         </Box>
-                        <Box component="section" className="multi-session">
+                        <Box component="section" id="multi-session" className="multi-session">
                             <Typography variant="h4" className={classes.titleCenter}>
                                 Multi-Session <Box component="span">Packages</Box>
                             </Typography>
@@ -570,7 +600,7 @@ const SessionPackages = () => {
                                 </Grid>
                             </Grid>
                         </Box>
-                        <Box component="section" className="return">
+                        <Box component="section" id="return" className="return">
                             <Typography variant="h4" className={classes.titleCenter}>
                                 Returning <Box component="span">Clients</Box>
                             </Typography>
@@ -719,7 +749,7 @@ const SessionPackages = () => {
                                 </Grid>
                             </Grid>
                         </Box>
-                        <Box component="section" className="question">
+                        <Box component="section" id="question" className="question">
                             <Typography variant="h4" className={classes.titleCenter}>
                                 Quick question? <Box component="span">Need the basics?</Box>
                             </Typography>
@@ -780,7 +810,7 @@ const SessionPackages = () => {
                                 </Grid>
                             </Grid>
                         </Box>
-                        <Box component="submit-comment">
+                        <Box component="section" id="discounts" className="submit-comment">
                             <Grid container className="grid" spacing={4}>
                                 <Grid item xs={12} sm={6}>
                                     <Typography
