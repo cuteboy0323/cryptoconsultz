@@ -189,12 +189,14 @@ const Header = () => {
                                         <ListItemText primary="Schedule & Pay" />
                                     </MenuItem>
                                 </Link>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <PlaylistAddCheckRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Waiting List" />
-                                </MenuItem>
+                                <Link href="/waiting-list" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <PlaylistAddCheckRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Waiting List" />
+                                    </MenuItem>
+                                </Link>
                                 <MenuItem>
                                     <ListItemIcon>
                                         <LocalPoliceRoundedIcon />
