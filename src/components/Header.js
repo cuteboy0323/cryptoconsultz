@@ -17,6 +17,12 @@ import MenuList from '@mui/material/MenuList';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import Drawer from "@mui/material/Drawer";
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 
 import TelegramIcon from '@mui/icons-material/Telegram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -40,6 +46,8 @@ import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import QrCodeRoundedIcon from '@mui/icons-material/QrCodeRounded';
 import BadgeRoundedIcon from '@mui/icons-material/BadgeRounded';
 import VolunteerActivismRoundedIcon from '@mui/icons-material/VolunteerActivismRounded';
+import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import ShoppingCartCheckoutRoundedIcon from '@mui/icons-material/ShoppingCartCheckoutRounded';
 
 import useStyles from "../assets/styles";
 
@@ -55,12 +63,19 @@ const Header = () => {
     });
 
     const [anchorEl, setAnchorEl] = React.useState(null);
+    const [openDrawer, setOpenDrawer] = React.useState(false);
+
     const open = Boolean(anchorEl);
+
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
     const handleClose = () => {
         setAnchorEl(null);
+    };
+
+    const toggleDrawer = () => {
+        setOpenDrawer(!openDrawer);
     };
 
     return (
@@ -128,7 +143,7 @@ const Header = () => {
                                 Services
                             </Button>
                         </Link>
-                        <Link href="/packages-and-pricing" underline="none" color="inherit">
+                        <Link href="/session-packages-and-pricing" underline="none" color="inherit">
                             <Button color="inherit" sx={{ m: 1 }}>
                                 Packages
                             </Button>
@@ -197,60 +212,76 @@ const Header = () => {
                                         <ListItemText primary="Waiting List" />
                                     </MenuItem>
                                 </Link>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <LocalPoliceRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Terms of Service Agreement" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <CameraIndoorRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Meeting Details" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <SchoolRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Crypto Currency Learning" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <GroupsRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Team" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <QrCodeRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Crypto Products" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <SupportAgentRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Contact Us" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <BadgeRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="For Exployees" />
-                                </MenuItem>
-                                <MenuItem>
-                                    <ListItemIcon>
-                                        <VolunteerActivismRoundedIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Customer Service" />
-                                </MenuItem>
+                                <Link href="/terms-of-service-agreement" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <LocalPoliceRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Terms of Service Agreement" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/meeting-detail" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <CameraIndoorRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Meeting Details" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/cryptocurrency-learning" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <SchoolRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Crypto Currency Learning" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/team" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <GroupsRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Team" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/crypto-products" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <QrCodeRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Crypto Products" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/contact" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <SupportAgentRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Contact Us" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/employee" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <BadgeRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="For Exployees" />
+                                    </MenuItem>
+                                </Link>
+                                <Link href="/customer-service" underline="none" color="inherit">
+                                    <MenuItem>
+                                        <ListItemIcon>
+                                            <VolunteerActivismRoundedIcon />
+                                        </ListItemIcon>
+                                        <ListItemText primary="Customer Service" />
+                                    </MenuItem>
+                                </Link>
                             </MenuList>
                         </Menu>
                     </Box>
                     <Box className="extra">
-                        <IconButton>
-                            <Badge badgeContent={4} color="primary">
+                        <IconButton onClick={() => toggleDrawer()}>
+                            <Badge badgeContent={4} color="secondary">
                                 <LocalMallRoundedIcon />
                             </Badge>
                         </IconButton>
@@ -259,6 +290,80 @@ const Header = () => {
                         </IconButton>
                     </Box>
                 </Container>
+                <Drawer
+                    open={openDrawer}
+                    anchor="top"
+                    className={classes.drawer}
+                    onClose={() => toggleDrawer()}
+                >
+                    <Container>
+                        <Box className="close-icon">
+                            <Button
+                                endIcon={<CloseRoundedIcon />}
+                                variant="outlined"
+                                color="secondary"
+                                onClick={() => toggleDrawer()}
+                            >
+                                Close
+                            </Button>
+                            <Button
+                                startIcon={<ShoppingCartCheckoutRoundedIcon />}
+                                variant="contained"
+                                color="secondary"
+                                style={{
+                                    marginLeft: 16
+                                }}
+                            >
+                                Checkout
+                            </Button>
+                        </Box>
+                        <Table className="table">
+                            <TableHead>
+                                <TableRow>
+                                    <TableCell>Product Image</TableCell>
+                                    <TableCell>Product Name</TableCell>
+                                    <TableCell>Package Option</TableCell>
+                                    <TableCell align="right">Price</TableCell>
+                                    <TableCell align="right">Quantity</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell>
+                                        <Box
+                                            component="img"
+                                            src="https://exwatch.templines.org/wp-content/uploads/revslider/home/s-white.png"
+                                            alt="img"
+                                        />
+                                    </TableCell>
+                                    <TableCell>
+                                        Personal Investor Pacakages
+                                    </TableCell>
+                                    <TableCell>
+                                        Packages Options 10 Session Pa
+                                    </TableCell>
+                                    <TableCell align="right">
+                                        $250000
+                                    </TableCell>
+                                    <TableCell align="right">
+                                        2
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell style={{ borderBottom: "none" }} /> 
+                                    <TableCell style={{ borderBottom: "none" }} />
+                                    <TableCell style={{ borderBottom: "none" }} />
+                                    <TableCell style={{ borderBottom: "none" }} align="right">
+                                        Sub Total
+                                    </TableCell>
+                                    <TableCell style={{ borderBottom: "none" }} align="right">
+                                        $500000
+                                    </TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
+                    </Container>
+                </Drawer>
             </Toolbar>
         </AppBar>
     )
