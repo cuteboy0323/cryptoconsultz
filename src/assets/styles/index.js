@@ -217,7 +217,8 @@ const useStyles = makeStyles((theme) => ({
                     border: "none",
                     borderRadius: theme.shape.borderRadius,
                     boxShadow: theme.shadows[4],
-                    marginBottom: theme.spacing(6)
+                    marginBottom: theme.spacing(6),
+                    height: theme.spacing(45)
                 }
             }
         },
@@ -282,7 +283,7 @@ const useStyles = makeStyles((theme) => ({
                 border: "none",
                 borderRadius: theme.shape.borderRadius,
                 boxShadow: theme.shadows[4],
-                marginBottom: theme.spacing(6)
+                marginBottom: theme.spacing(6),
             }
         },
         "& .partner": {
@@ -443,7 +444,8 @@ const useStyles = makeStyles((theme) => ({
             },
             "& iframe": {
                 borderRadius: theme.shape.borderRadius,
-                boxShadow: theme.shadows[4]
+                boxShadow: theme.shadows[4],
+                height: theme.spacing(45)
             },
         }
     },
@@ -458,7 +460,8 @@ const useStyles = makeStyles((theme) => ({
             },
             "& iframe": {
                 borderRadius: theme.shape.borderRadius,
-                boxShadow: theme.shadows[4]
+                boxShadow: theme.shadows[4],
+                height: theme.spacing(45)
             },
 
             "& .card": {
@@ -506,7 +509,8 @@ const useStyles = makeStyles((theme) => ({
             },
             "& iframe": {
                 borderRadius: theme.shape.borderRadius,
-                boxShadow: theme.shadows[4]
+                boxShadow: theme.shadows[4],
+                height: theme.spacing(45)
             },
         }
     },
