@@ -15,13 +15,16 @@ import {
 const Home = lazy(() => import("./pages/Home"));
 const Services = lazy(() => import("./pages/Services"));
 const SessionPackages = lazy(() => import("./pages/SessionPackages"));
-const Team = lazy(() => import("./pages/Team"));
-const Contact = lazy(() => import("./pages/Contact"));
-const CustomerService = lazy(() => import("./pages/CustomerService"));
 const Schedule = lazy(() => import("./pages/Schedule"));
+const WaitingList = lazy(() => import("./pages/WaitingList"));
+const Terms = lazy(() =>  import("./pages/Terms.js"));
 const Meeting = lazy(() => import("./pages/Meeting"));
 const Learning = lazy(() => import("./pages/Learning"));
-const WaitingList = lazy(() => import("./pages/WaitingList"));
+const Team = lazy(() => import("./pages/Team"));
+const Products = lazy(() => import("./pages/Products"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Employee = lazy(() => import("./pages/Employee"));
+const CustomerService = lazy(() => import("./pages/CustomerService"));
 
 const AppRouter = () => {
     return (
@@ -34,11 +37,14 @@ const AppRouter = () => {
                         <Route path="/session-packages-and-pricing" exact element={<SessionPackages />} />
                         <Route path="/schedule-and-pay" exact element={<Schedule />} />
                         <Route path="/waiting-list" exact element={<WaitingList />} />
-                        <Route path="/team" exact element={<Team />} />
-                        <Route path="/contact" exact element={<Contact />} />
-                        <Route path="/customer-service" exact element={<CustomerService />} />
+                        <Route path="/terms-of-service-agreement" exact element={<Terms />} />
                         <Route path="/meeting-detail" exact element={<Meeting />} />
-                        <Route path="/learning" exact element={<Learning />} />
+                        <Route path="/cryptocurrency-learning" exact element={<Learning />} />
+                        <Route path="/team" exact element={<Team />} />
+                        <Route path="/crypto-products" exact element={<Products />} />
+                        <Route path="/contact" exact element={<Contact />} />
+                        <Route path="/employee" exact element={<Employee />} />
+                        <Route path="/customer-service" exact element={<CustomerService />} />
                     </Routes>
                 </BaseLayout>
             </Suspense>
