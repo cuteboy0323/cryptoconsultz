@@ -13,13 +13,13 @@ const useStyles = makeStyles((theme) => ({
             boxShadow: "none !important",
             backgroundColor: "transparent !important",
             backgroundImage: "none !important",
-            transition: ".5s"
+            transition: "background-color .5s"
         },
         "&.animate-appbar": {
             backgroundColor: `${theme.palette.background.default} !important`,
             boxShadow: `${theme.shadows[4]} !important`,
             backgroundImage: `url(${require("../img/bg/space-bg.svg").default}) !important`,
-            transition: ".5s"
+            transition: "background .5s"
         },
         "& .top-toolbar": {
             borderWidth: 0,
@@ -375,6 +375,78 @@ const useStyles = makeStyles((theme) => ({
             }
         }
     },
+    schedule: {
+        marginTop: theme.spacing(20),
+
+        "& .schedule": {
+            padding: theme.spacing(10, 0)
+        }
+    },
+    waitingList: {
+        marginTop: theme.spacing(20),
+
+        "& .waiting-list": {
+            padding: theme.spacing(10, 0)
+        }
+    },
+    terms: {
+        marginTop: theme.spacing(20),
+
+        "& .terms": {
+            padding: theme.spacing(10, 0),
+
+            "& .card": {
+                padding: theme.spacing(2, 2),
+                backgroundImage: "none",
+                backgroundColor: "rgba(255, 255, 255, .05)",
+                "& .title": {
+                    fontFamily: "'grinddemolished'",
+                    textAlign: "center",
+                    paddingTop: theme.spacing(2),
+                    marginBottom: theme.spacing(1)
+                },
+                "& .dOne": {
+                    width: "75%",
+                    marginLeft: "calc(50% - 75% / 2)",
+                    marginBottom: theme.spacing(.5)
+                },
+                "& .dTwo": {
+                    width: "80%",
+                    marginLeft: "calc(50% - 80% / 2)",
+                    marginBottom: theme.spacing(2)
+                }
+            }
+        }
+    },
+    meetings: {
+        marginTop: theme.spacing(20),
+
+        "& .meetings": {
+            padding: theme.spacing(10, 0)
+        }
+    },
+    learn: {
+        marginTop: theme.spacing(20),
+
+        "& .learn": {
+            padding: theme.spacing(10, 0),
+
+            "& .img-wrapper": {
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                "& img": {
+                    borderRadius: theme.shape.borderRadius,
+                    width: "100%",
+                    boxShadow: theme.shadows[4]
+                }
+            },
+            "& iframe": {
+                borderRadius: theme.shape.borderRadius,
+                boxShadow: theme.shadows[4]
+            },
+        }
+    },
     team: {
         marginTop: theme.spacing(20),
         "& .team": {
@@ -412,6 +484,39 @@ const useStyles = makeStyles((theme) => ({
             }
         }
     },
+    products: {
+        marginTop: theme.spacing(20),
+
+        "& .products": {
+            padding: theme.spacing(10, 0),
+
+            "& .background-video": {
+                borderRadius: theme.shape.borderRadius,
+                width: "100%",
+                boxShadow: theme.shadows[4]
+            },
+            "& .coupon-code": {
+                padding: theme.spacing(1, 2),
+                borderRadius: theme.shape.borderRadius,
+                textAlign: "center",
+                borderWidth: 1,
+                borderStyle: "dashed",
+                borderColor: "#fb03c4",
+                color: "#fb03c4"
+            },
+            "& iframe": {
+                borderRadius: theme.shape.borderRadius,
+                boxShadow: theme.shadows[4]
+            },
+        }
+    },
+    contact: {
+        marginTop: theme.spacing(20),
+
+        "& .contact": {
+            padding: theme.spacing(10, 0),
+        }
+    },
     pageHeader: {
         display: "flex",
         justifyContent: "center",
@@ -421,6 +526,43 @@ const useStyles = makeStyles((theme) => ({
         "& .title": {
             fontFamily: "'grinddemolished' !important",
             marginBottom: theme.spacing(2)
+        }
+    },
+    protectDialog: {
+        "& .MuiBackdrop-root": {
+            backgroundColor: "#121227",
+            backgroundImage: `url(${require("../img/bg/space-bg.svg").default})`,
+            backdropFilter: "blur(10px)"
+        },
+        "& .MuiPaper-root": {
+            backgroundImage: "none",
+            backgroundColor: "rgba(255, 255, 255, .05)",
+            padding: theme.spacing(2)
+        }
+    },
+    drawer: {
+        "& .MuiPaper-root": {
+            backgroundImage: `url(${require("../img/bg/space-bg.svg").default})`,
+            padding: theme.spacing(5, 0),
+            backgroundColor: "#121227",
+
+            "& .close-icon": {
+                display: "flex",
+                justifyContent: "flex-end"
+            },
+
+            "& .table": {
+                margin: theme.spacing(5, 0),
+                "& td, & th": {
+                    borderWidth: 0,
+                    borderColor: theme.palette.common.white,
+                    borderBottomWidth: 1,
+                    borderStyle: "solid",
+                },
+                "& img": {
+                    height: 100
+                }
+            }
         }
     }
 }));
