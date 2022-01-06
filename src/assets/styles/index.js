@@ -6,7 +6,11 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.default,
         overflow: "hidden",
         paddingBottom: theme.spacing(4),
-        backgroundImage: `url(${require("../img/bg/space-bg.svg").default})`
+        backgroundImage: `url(${require("../img/bg/space-bg.svg").default})`,
+        "& > div": {
+            position: "relative",
+            zIndex: 2
+        }
     },
     appbar: {
         "&.transparent": {
