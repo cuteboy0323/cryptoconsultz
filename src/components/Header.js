@@ -8,7 +8,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import Badge from '@mui/material/Badge';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Link from "@mui/material/Link";
@@ -127,9 +126,6 @@ const Header = () => {
                 <Container>
                     <Box className="logo">
                         <Box component="img" src={Logo} alt="logo" />
-                        <Typography sx={{ ml: 2 }}>
-                            CryptoConsultz
-                        </Typography>
                     </Box>
                     <Box className="space" />
                     <Box className="menu">
