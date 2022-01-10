@@ -44,15 +44,15 @@ const Meetings = () => {
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
-                        CryptoConsultz uses Zoom for our virtual consulting sessions.  Upon completion of the intake form and payment, you will receive an email with meeting details.  You can connect to the meeting through the meeting link in the email or you can call in using the number listed in the meeting details email.
+                        REKT uses Zoom for our virtual consulting sessions.  Upon completion of the intake form and payment, you will receive an email with meeting details.  You can connect to the meeting through the meeting link in the email or you can call in using the number listed in the meeting details email.
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
-                        Please prepare for your meeting by downloading and connecting to Zoom through the link in your email.  If you prefer a video enabled meeting, please test your webcam prior to your meeting time.  CryptoConsultz does not accommodate for client driven technical difficulties. Any issues you are having with your devices will impact the time you get to spend with your CryptoConsultant.
+                        Please prepare for your meeting by downloading and connecting to Zoom through the link in your email.  If you prefer a video enabled meeting, please test your webcam prior to your meeting time.  REKT does not accommodate for client driven technical difficulties. Any issues you are having with your devices will impact the time you get to spend with your CryptoConsultant.
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
-                        Virtual sessions are ideal as they can provide screen sharing opportunities for our customers.  While we make every attempt to provide virtual sessions, this benefit is not guaranteed.  During times of technical issues, it may not be possible for your consultant to participate through virtual session.  These circumstance are rare but inevitable as CryptoConsultz relies on the performance of a third party platform.  In the event video or audio challenges arise, a telephone consult will be provided.
+                        Virtual sessions are ideal as they can provide screen sharing opportunities for our customers.  While we make every attempt to provide virtual sessions, this benefit is not guaranteed.  During times of technical issues, it may not be possible for your consultant to participate through virtual session.  These circumstance are rare but inevitable as REKT relies on the performance of a third party platform.  In the event video or audio challenges arise, a telephone consult will be provided.
                     </Typography>
                     <Box component="br" />
                     <Typography color="secondary" variant="h5">
@@ -60,7 +60,7 @@ const Meetings = () => {
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
-                        You can reschedule your meeting <Box component="span" color="#FF0044">greater than 24 hours before your meeting time.</Box>  You must make this change in our scheduling system.  CryptoConsultz is not responsible for cancelling or rescheduling appointment times for you.  You can do so by selecting the link in your meeting details email which is sent to you at the time of purchase.
+                        You can reschedule your meeting <Box component="span" color="#FF0044">greater than 24 hours before your meeting time.</Box>  You must make this change in our scheduling system.  REKT is not responsible for cancelling or rescheduling appointment times for you.  You can do so by selecting the link in your meeting details email which is sent to you at the time of purchase.
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
@@ -89,7 +89,7 @@ const Meetings = () => {
                                     primaryTypographyProps={{
                                         color: "textSecondary"
                                     }}
-                                    primary="Please note, if you decide to reschedule, CryptoConsultz does not guarantee additional session times will be available.  Due to high demand, there are times where the schedule is booked."
+                                    primary="Please note, if you decide to reschedule, REKT does not guarantee additional session times will be available.  Due to high demand, there are times where the schedule is booked."
                                 />
                             </ListItemButton>
                         </ListItem>
@@ -108,7 +108,7 @@ const Meetings = () => {
                                     primaryTypographyProps={{
                                         color: "#FF0044"
                                     }}
-                                    primary="You can cancel your appointment up to 24 hours before you scheduled appointment time.  CryptoConsultz charges a $39 cancellation fee."
+                                    primary="You can cancel your appointment up to 24 hours before you scheduled appointment time.  REKT charges a $39 cancellation fee."
                                 />
                             </ListItemButton>
                         </ListItem>
@@ -404,7 +404,7 @@ const Meetings = () => {
                         What if my consultant or I am late?
                     </Typography>
                     <Typography color="textSecondary">
-                        At CryptoConsultz we make every attempt possible to connect with our customers on time.  We do realize that sometimes life gets in the way.  We allow a 10 minute buffer in our meeting times to account for these bumps.
+                        At REKT we make every attempt possible to connect with our customers on time.  We do realize that sometimes life gets in the way.  We allow a 10 minute buffer in our meeting times to account for these bumps.
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
@@ -477,7 +477,7 @@ const Meetings = () => {
                                     primaryTypographyProps={{
                                         color: "textSecondary"
                                     }}
-                                    primary={`At CryptoConsultz we expect our consultants to be on time to sessions.  Due to unforeseen circumstances, on the very rare occasion that your consultant is late, we will offer to compensate you for missed time.`}
+                                    primary={`At REKT we expect our consultants to be on time to sessions.  Due to unforeseen circumstances, on the very rare occasion that your consultant is late, we will offer to compensate you for missed time.`}
                                 />
                             </ListItemButton>
                         </ListItem>
