@@ -271,7 +271,7 @@ const SessionPackages = () => {
                                     </Typography>
                                     <Box className="content">
                                         <Typography color="textSecondary">
-                                            Unsure if CryptoConsultz is the right fit?  Have a quick question?
+                                            Unsure if REKT is the right fit?  Have a quick question?
                                         </Typography>
                                         <Box component="br" />
                                         <Typography color="textSecondary">
@@ -327,7 +327,7 @@ const SessionPackages = () => {
                                     </Typography>
                                     <Box className="content">
                                         <Typography color="textSecondary">
-                                            Have multiple questions/topics to discuss? Have ongoing needs?  New to crypto and blockchain?  This is the best value long-term. With a rapidly changing industry, you are likely to need ongoing support along your crypto journey.  Get the best guidance along the way by purchasing a CryptoConsultz package.
+                                            Have multiple questions/topics to discuss? Have ongoing needs?  New to crypto and blockchain?  This is the best value long-term. With a rapidly changing industry, you are likely to need ongoing support along your crypto journey.  Get the best guidance along the way by purchasing a REKT package.
                                         </Typography>
                                         <Box component="br" />
                                     </Box>
@@ -766,7 +766,7 @@ const SessionPackages = () => {
                                         className="title"
                                         variant="h5"
                                     >
-                                        CryptoConsultz Webinars
+                                        REKT Webinars
                                     </Typography>
                                     <Box className="schedule">
                                         <Link
@@ -800,7 +800,7 @@ const SessionPackages = () => {
                                             underline="none"
                                             color="inherit"
                                             target="_blank"
-                                            href="https://calendly.com/cryptoconsultz/quickconsult"
+                                            href="https://calendly.com/REKT/quickconsult"
                                         >
                                             <Button variant="contained" color="secondary" fullWidth size="large">
                                                 Schedule
@@ -879,7 +879,7 @@ const SessionPackages = () => {
                                     </Typography>
                                     <Box className="content">
                                         <Typography color="textSecondary">
-                                            It's our mission at CryptoConsultz to provide access to cryptocurrency and blockchain support, regardless of your financial status.
+                                            It's our mission at REKT to provide access to cryptocurrency and blockchain support, regardless of your financial status.
                                         </Typography>
                                         <Box component="br" />
                                         <Typography color="textSecondary">
