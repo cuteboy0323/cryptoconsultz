@@ -43,7 +43,7 @@ const Contact = () => {
                     </Typography>
                     <Box component="br" />
                     <Typography color="textSecondary">
-                        Due to high-demand, our sessions are limited.  If you are interested in future sessions but have questions, fill out this form.  We keep our customer satisfaction a priority and prioritize accordingly, response times may be delayed for general inquiries.  If you are a current CryptoConsultz customer and have a customer service request please visit our Customer Service page to submit a request.
+                        Due to high-demand, our sessions are limited.  If you are interested in future sessions but have questions, fill out this form.  We keep our customer satisfaction a priority and prioritize accordingly, response times may be delayed for general inquiries.  If you are a current REKT customer and have a customer service request please visit our Customer Service page to submit a request.
                     </Typography>
                     <Box component="br" />
                     <Stack direction="row" justifyContent="space-between" spacing={2}>
