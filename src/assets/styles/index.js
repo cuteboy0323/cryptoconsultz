@@ -188,7 +188,7 @@ const useStyles = makeStyles((theme) => ({
                 alignItems: "center",
                 "& img": {
                     marginBottom: theme.spacing(6),
-                    width: theme.spacing(25)
+                    width: "70%"
                 },
                 "& .title": {
                     fontFamily: "'grinddemolished'"
