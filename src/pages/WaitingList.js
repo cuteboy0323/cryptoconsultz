@@ -45,11 +45,11 @@ const Services = () => {
                     <Grid container spacing={8}>
                         <Grid item xs={12} sm={6}>
                             <Typography color="secondary">
-                                I wasn’t able to find a open session time. Can I get on the CryptoConsultz waiting list?
+                                I wasn’t able to find a open session time. Can I get on the REKT waiting list?
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                Although CryptoConsultz offers a wide range of session times, high demand means we can’t always meet everyone’s needs right away. To satisfy as many customers as possible, we offer a waiting list. This helps us fill dates that become available as reservations are canceled or changed.
+                                Although REKT offers a wide range of session times, high demand means we can’t always meet everyone’s needs right away. To satisfy as many customers as possible, we offer a waiting list. This helps us fill dates that become available as reservations are canceled or changed.
                             </Typography>
                             <Box component="br" />
                             <Typography color="secondary">
@@ -63,7 +63,7 @@ const Services = () => {
                             <Typography color="textSecondary">
                                 You can return to our
                                 <Link
-                                    href="https://calendly.com/cryptoconsultz"
+                                    href="https://calendly.com/REKT"
                                     target="_blank"
                                 >
                                     {" scheduling & payment "}
@@ -76,7 +76,7 @@ const Services = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                Yes. Existing / returning CryptoConsultz clients will have priority on open slots.
+                                Yes. Existing / returning REKT clients will have priority on open slots.
                             </Typography>
                             <Box component="br" />
                             <Typography color="secondary">
@@ -85,10 +85,10 @@ const Services = () => {
                             <Box component="br" />
                             <Typography color="textSecondary">
                                 <Link
-                                    href="mailto:waitlist@cryptoconsultz.com"
+                                    href="mailto:waitlist@REKT.com"
                                     target="_blank"
                                 >
-                                    waitlist@cryptoconsultz.com
+                                    waitlist@REKT.com
                                 </Link>
                             </Typography>
                             <Box component="br" />
