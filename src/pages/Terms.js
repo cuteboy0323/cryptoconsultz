@@ -42,7 +42,7 @@ const Terms = () => {
                             <Divider className="dOne" />
                             <Divider className="dTwo" />
                             <Typography color="textSecondary">
-                                {`The following terms of service ("TOS") will apply to the agreement to provide service between CryptoConsultz, LLC ("Company"), and the individual or business entity identified on the order form for said services ("Customer").  These terms, along with the attached “Legal Considerations, Risks and Disclaimer,” shall hereinafter be referred to as the "Agreement" between the two above mentioned parties.`}
+                                {`The following terms of service ("TOS") will apply to the agreement to provide service between REKT, LLC ("Company"), and the individual or business entity identified on the order form for said services ("Customer").  These terms, along with the attached “Legal Considerations, Risks and Disclaimer,” shall hereinafter be referred to as the "Agreement" between the two above mentioned parties.`}
                             </Typography>
                             <Box component="br" />
                             <Box component="br" />
@@ -97,7 +97,7 @@ const Terms = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                {`In order for the customer to be considered for a partial refund for cancellations made more than twenty-four (24) hours prior to the scheduled appointment time, the Customer must complete the refund request form found on the CryptoConsultz website at http://www.cryptoconsultz.com/customer-service.html`}
+                                {`In order for the customer to be considered for a partial refund for cancellations made more than twenty-four (24) hours prior to the scheduled appointment time, the Customer must complete the refund request form found on the REKT website at http://www.REKT.com/customer-service.html`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
@@ -105,7 +105,7 @@ const Terms = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                {`Any rescheduled sessions must be scheduled and completed within the schedule availability posted on the date of the cancellation.  CryptoConsultz LLC does not guarantee rescheduling availability as the appointment times available are dependent on the demand for services and consultant availability.  In the event that a client is not able to find an open appointment time at the time of appointment cancellation, the client forfeits the session and will not be offered a refund or additional opportunities to reschedule.`}
+                                {`Any rescheduled sessions must be scheduled and completed within the schedule availability posted on the date of the cancellation.  REKT LLC does not guarantee rescheduling availability as the appointment times available are dependent on the demand for services and consultant availability.  In the event that a client is not able to find an open appointment time at the time of appointment cancellation, the client forfeits the session and will not be offered a refund or additional opportunities to reschedule.`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="primary">
@@ -123,7 +123,7 @@ const Terms = () => {
                                 {`Non-Scheduled Services:`}
                             </Typography>
                             <Typography color="textSecondary">
-                                {`Requests to cancel non-scheduled services may be made by the Customer by notifying the Company’s Billing Department.  Such requests can be made by emailing the request to billing@cryptoconsultz.com.  All requests for service cancellation must be made a minimum of 10 days prior to the renewal date of the service being cancelled. Failure to provide notice at least 10 days prior to the renewal date will result in a full billable monthly cycle prior to cancellation. Where all services are considered to be provided on a strictly prepaid basis, no prorated or partial refunds will be made. All outstanding invoices must be paid in full prior to requesting cancellation.`}
+                                {`Requests to cancel non-scheduled services may be made by the Customer by notifying the Company’s Billing Department.  Such requests can be made by emailing the request to billing@REKT.com.  All requests for service cancellation must be made a minimum of 10 days prior to the renewal date of the service being cancelled. Failure to provide notice at least 10 days prior to the renewal date will result in a full billable monthly cycle prior to cancellation. Where all services are considered to be provided on a strictly prepaid basis, no prorated or partial refunds will be made. All outstanding invoices must be paid in full prior to requesting cancellation.`}
                             </Typography>
                             <Box component="br" />
                             <Box component="br" />
@@ -155,7 +155,7 @@ const Terms = () => {
                                 {`Scheduling & Payment`}
                             </Typography>
                             <Typography color="textSecondary">
-                                {`CryptoConsultz LLC uses Zoom for the Company’s virtual consulting sessions provided to the Customer.  In order to participate in virtual consulting sessions, the Customer must complete the CryptoConsultz Intake Form which includes a link to the Terms of Service, outlined here, as well as the Legal Considerations and Risk Disclaimer as outlined below.  The Customer must agree to these Terms of Services as well as the Legal Considerations and Risk disclaimer in order to proceed to the third party scheduling website www.Calendly.com.  In order to complete the scheduling process with Calendly, the Customer must make the payment for services in full.  After the Customer has completed the CryptoConsultz Intake Form, scheduled the session through Calendly and made the payment for services in full, the Customer will receive an email outlining the “Meeting Details.”`}
+                                {`REKT LLC uses Zoom for the Company’s virtual consulting sessions provided to the Customer.  In order to participate in virtual consulting sessions, the Customer must complete the REKT Intake Form which includes a link to the Terms of Service, outlined here, as well as the Legal Considerations and Risk Disclaimer as outlined below.  The Customer must agree to these Terms of Services as well as the Legal Considerations and Risk disclaimer in order to proceed to the third party scheduling website www.Calendly.com.  In order to complete the scheduling process with Calendly, the Customer must make the payment for services in full.  After the Customer has completed the REKT Intake Form, scheduled the session through Calendly and made the payment for services in full, the Customer will receive an email outlining the “Meeting Details.”`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="primary">
@@ -181,7 +181,7 @@ const Terms = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                {`In the event the Customer is late, the Customer is required to call the CryptoConsultz support line at 360-601-8800 to report the delay.  The Company does not guarantee that support staff will be available on demand before, during or after the Customer’s session time.  See Customer Service response times for details.  The Company’s consultant will wait on the meeting for ten (10) minutes in order to allow the customer to join the call or virtual session.  Should the Customer fail to connect to the meeting within ten (10) minutes time the session will be terminated and considered a no show.  Refunds will not be given for no show appointments.  See above "no show" terms for details.  If the Customer connects to the meeting within ten (10) minutes of the scheduled session start time, the meeting will continue as scheduled.  No additional time will be added to the consultation session time to accommodate for session delays due to Customer delay.  The Company is under no obligation to make further attempts to contact the Customer during times of meeting delay but may do so as a courtesy to the customer in the event a meeting is delayed.`}
+                                {`In the event the Customer is late, the Customer is required to call the REKT support line at 360-601-8800 to report the delay.  The Company does not guarantee that support staff will be available on demand before, during or after the Customer’s session time.  See Customer Service response times for details.  The Company’s consultant will wait on the meeting for ten (10) minutes in order to allow the customer to join the call or virtual session.  Should the Customer fail to connect to the meeting within ten (10) minutes time the session will be terminated and considered a no show.  Refunds will not be given for no show appointments.  See above "no show" terms for details.  If the Customer connects to the meeting within ten (10) minutes of the scheduled session start time, the meeting will continue as scheduled.  No additional time will be added to the consultation session time to accommodate for session delays due to Customer delay.  The Company is under no obligation to make further attempts to contact the Customer during times of meeting delay but may do so as a courtesy to the customer in the event a meeting is delayed.`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
@@ -206,7 +206,7 @@ const Terms = () => {
                             <Box component="br" />
                             <Box component="br" />
                             <Typography color="secondary">
-                                {`Billing Department Inquiries:  billing@cryptoconsultz.com`}
+                                {`Billing Department Inquiries:  billing@REKT.com`}
                             </Typography>
                             <Box component="br" />
                             <Box component="br" />
@@ -238,12 +238,12 @@ const Terms = () => {
                                 {`Complaint Response Times`}
                             </Typography>
                             <Typography color="textSecondary">
-                                {`The Company does not guarantee that support staff will be available on demand before, during or after the Customer’s session time.  Customer Service inquiries can be made by filling out the Customer Service Request Form.  Requests will be prioritizes at the discretion of the Company.  CryptoConsultz LLC makes no guarantee to complaint response times but does make every effort to address Customer requests in a timely manner, typically within 3-5 business days.`}
+                                {`The Company does not guarantee that support staff will be available on demand before, during or after the Customer’s session time.  Customer Service inquiries can be made by filling out the Customer Service Request Form.  Requests will be prioritizes at the discretion of the Company.  REKT LLC makes no guarantee to complaint response times but does make every effort to address Customer requests in a timely manner, typically within 3-5 business days.`}
                             </Typography>
                             <Box component="br" />
                             <Box component="br" />
                             <Typography color="secondary">
-                                {`CRYPTOCONSULTZ, LLC.`}
+                                {`REKT, LLC.`}
                             </Typography>
                             <Typography color="secondary">
                                 {`LEGAL CONSIDERATIONS, RISKS AND DISCLAIMER`}
@@ -251,11 +251,11 @@ const Terms = () => {
                             <Box component="br" />
                             <Box component="br" />
                             <Typography color="primary">
-                                {`IMPORTANT NOTICE: PLEASE READ THE ENTIRETY OF THIS “Legal Considerations, Risks and Disclaimer” SECTION CAREFULLY.  WE RECOMMEND YOU CONSULT A LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S) OR EXPERTS FOR FURTHER GUIDANCE PRIOR TO PARTICIPATING IN THE EDUCATIONAL & COACHING SESSIONS/COMMUNICATIONS PROVIDED BY CRYPTOCONSULTZ.`}
+                                {`IMPORTANT NOTICE: PLEASE READ THE ENTIRETY OF THIS “Legal Considerations, Risks and Disclaimer” SECTION CAREFULLY.  WE RECOMMEND YOU CONSULT A LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL ADVISOR(S) OR EXPERTS FOR FURTHER GUIDANCE PRIOR TO PARTICIPATING IN THE EDUCATIONAL & COACHING SESSIONS/COMMUNICATIONS PROVIDED BY REKT.`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                {`You must read the following “Legal Considerations, Risks and Disclaimer” section before: (i) making use of services provided by CryptConsultz LLC (the “Company”)  and any and all information available on the website(s) of CRYPTOCONSULTZ LLC located at www.cryptoconsultz.com (the “Website”).  This “Legal Considerations, Risks and Disclaimer” section applies to services provided and any and all information available on the Website or through communications with CryptoConsultz LLC.  The contents of this “Legal Considerations, Risks and Disclaimer” section outlines the terms and conditions applicable to you in connection with (i) your use of CryptoConsultz LLC services and of any and all information available on the Website; and/or (ii) your participation in any educational/coaching sessions or seminars offered.  In each case in addition to any other terms and conditions that we may publish from time to time relating to virtual currency, blockchain technology and financial transactions (such terms hereinafter referred to as the “Terms”).   This “Legal Considerations, Risks and Disclaimer” section may be updated from time to time and will be published as part of the latest version of the Website which shall be available on the Website.  You shall be obliged to check the latest available version of the Website prior to participating in any CryptoConsultz LLC services, including but not limited to educational/coaching sessions, seminars, telephone/email/other communications.`}
+                                {`You must read the following “Legal Considerations, Risks and Disclaimer” section before: (i) making use of services provided by CryptConsultz LLC (the “Company”)  and any and all information available on the website(s) of REKT LLC located at www.REKT.com (the “Website”).  This “Legal Considerations, Risks and Disclaimer” section applies to services provided and any and all information available on the Website or through communications with REKT LLC.  The contents of this “Legal Considerations, Risks and Disclaimer” section outlines the terms and conditions applicable to you in connection with (i) your use of REKT LLC services and of any and all information available on the Website; and/or (ii) your participation in any educational/coaching sessions or seminars offered.  In each case in addition to any other terms and conditions that we may publish from time to time relating to virtual currency, blockchain technology and financial transactions (such terms hereinafter referred to as the “Terms”).   This “Legal Considerations, Risks and Disclaimer” section may be updated from time to time and will be published as part of the latest version of the Website which shall be available on the Website.  You shall be obliged to check the latest available version of the Website prior to participating in any REKT LLC services, including but not limited to educational/coaching sessions, seminars, telephone/email/other communications.`}
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
@@ -327,7 +327,7 @@ const Terms = () => {
                                 {`RISK FACTORS`}
                             </Typography>
                             <Typography color="textSecondary">
-                                {`You should carefully consider and evaluate all risk factors and all other information contained in these Terms before deciding to participate in CryptoConsultz LLC services. All risk factors which are material to you in making an informed judgment to participate in cryptocurrency, digital/virtual currency, Token sales and blockchain technology should be evaluated by the customer.  The Company takes no liability for such risk.`}
+                                {`You should carefully consider and evaluate all risk factors and all other information contained in these Terms before deciding to participate in REKT LLC services. All risk factors which are material to you in making an informed judgment to participate in cryptocurrency, digital/virtual currency, Token sales and blockchain technology should be evaluated by the customer.  The Company takes no liability for such risk.`}
                             </Typography>
                             <Box component="br" />
                             <Box component="br" />
