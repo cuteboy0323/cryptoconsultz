@@ -50,7 +50,7 @@ import ShoppingCartCheckoutRoundedIcon from '@mui/icons-material/ShoppingCartChe
 
 import useStyles from "../assets/styles";
 
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/favicon.png";
 
 const Header = () => {
     const classes = useStyles();
@@ -103,7 +103,7 @@ const Header = () => {
                                 <MailRoundedIcon />
                             }
                         >
-                            info@cryptoconsultz.com
+                            info@rekt.com
                         </Button>
                     </Box>
                     <Box>
