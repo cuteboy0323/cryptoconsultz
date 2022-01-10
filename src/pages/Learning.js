@@ -50,7 +50,7 @@ const Learn = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                Our Blockchain & Crypto 101 course offers participants 60 mins of basic learning in a group setting and an open Q&A session with CryptoConsultz owner/founder, Nicole DeCicco.
+                                Our Blockchain & Crypto 101 course offers participants 60 mins of basic learning in a group setting and an open Q&A session with REKT owner/founder, Nicole DeCicco.
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
@@ -58,7 +58,7 @@ const Learn = () => {
                             </Typography>
                             <Box component="br" />
                             <Typography color="textSecondary">
-                                Email info@cryptoconsultz.com to learn about session dates, set up a group session or suggest topics for our next live webinar.
+                                Email info@rekt.com to learn about session dates, set up a group session or suggest topics for our next live webinar.
                             </Typography>
                             <Box component="br" />
                             <Button variant="contained" color="secondary" size="large">
