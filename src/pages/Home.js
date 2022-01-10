@@ -18,9 +18,9 @@ import useStyles from "../assets/styles";
 
 import ArrowRightAltRoundedIcon from '@mui/icons-material/ArrowRightAltRounded';
 
-import Logo from "../assets/img/logo.png";
 import Investment from "../assets/img/home/investment.png";
 import Business from "../assets/img/home/business.png";
+import Logo from "../assets/img/logo.png";
 
 import CNN from "../assets/img/partner/cnn-logo.png";
 import MSN from "../assets/img/partner/msn-logo.png";
@@ -35,13 +35,13 @@ const Home = () => {
             <Box component="section" className="hero">
                 <Container>
                     <Box className="logo-banner">
-                        <Box component="img" src={Logo} alt="logo" />
-                        <Typography variant="h2" className="title">
-                            CryptoConsultz
-                        </Typography>
-                        <Typography variant="h6" color="secondary" className="sub-title">
+                        <Box component="img" src={Logo} alt="Logo" />
+                        {/* <Typography variant="h2" className="title">
+                            {"R  E  K  T"}
+                        </Typography> */}
+                        {/* <Typography variant="h6" color="secondary" className="sub-title">
                             Blockchain & Digital Currency Consulting Services
-                        </Typography>
+                        </Typography> */}
                     </Box>
                 </Container>
             </Box>
@@ -80,7 +80,7 @@ const Home = () => {
                     </Typography>
                     <br />
                     <Typography>
-                        Navigating the rapidly evolving cryptocurrency market can be confusing, challenging and risky without the help of a cryptocurrency consultant.  CryptoConsultz provides support for all levels of crypto-curious investors.
+                        Navigating the rapidly evolving cryptocurrency market can be confusing, challenging and risky without the help of a cryptocurrency consultant.  REKT provides support for all levels of crypto-curious investors.
                     </Typography>
                     <br />
                     <Grid container>
@@ -175,7 +175,7 @@ const Home = () => {
                         Business <Box component="span">Consulting</Box>
                     </Typography>
                     <Typography>
-                        CryptoConsultz offers a multitude of services for ecosystems participating in the Blockchain space and business servicing the Blockchain industry.
+                        REKT offers a multitude of services for ecosystems participating in the Blockchain space and business servicing the Blockchain industry.
                     </Typography>
                     <br />
                     <Grid container>
@@ -255,7 +255,7 @@ const Home = () => {
                         </Grid>
                     </Grid>
                     <Typography>
-                        Contact us for a FREE initial consultation.  Send inquiries to <Link href="mailto:info@cryptoconsultz.com">info@cryptoconsultz.com</Link>
+                        Contact us for a FREE initial consultation.  Send inquiries to <Link href="mailto:info@rekt.com">info@rekt.com</Link>
                     </Typography>
                 </Container>
             </Box>
