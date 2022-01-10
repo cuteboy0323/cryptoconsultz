@@ -76,11 +76,11 @@ const Team = () => {
                                             <Divider className="dOne" />
                                             <Divider className="dTwo" />
                                             <Typography>
-                                                Nicole found a passion for blockchain technology as a cryptocurrency enthusiast and Etherum miner in late 2015.  She turned her hobby into her career, as she transitioned from nearly two decades in the healthcare field to launch CryptoConsultz in 2017.  She is passionate about making blockchain and cryptocurrency accessible to all and advocates for mass adoption of cryptographic technologies.
+                                                Nicole found a passion for blockchain technology as a cryptocurrency enthusiast and Etherum miner in late 2015.  She turned her hobby into her career, as she transitioned from nearly two decades in the healthcare field to launch REKT in 2017.  She is passionate about making blockchain and cryptocurrency accessible to all and advocates for mass adoption of cryptographic technologies.
                                             </Typography>
                                             <Box component="br" />
                                             <Typography>
-                                                CryptoConsultz offers services for both individuals and blockchain organizations with a mission of personalizing services to meet each client's individual needs.
+                                                REKT offers services for both individuals and blockchain organizations with a mission of personalizing services to meet each client's individual needs.
                                             </Typography>
                                             <Box component="br" />
                                             <Typography>
