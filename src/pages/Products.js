@@ -64,7 +64,7 @@ const Products = () => {
                     <Box component="br" />
                     <Box component="br" />
                     <Box className="coupon-code">
-                        Use Coupon Code <Box component="b">CRYPTOCONSULTZ</Box> for 25% off at checkout on all Cold Storage Coin Purchases!
+                        Use Coupon Code <Box component="b">REKT</Box> for 25% off at checkout on all Cold Storage Coin Purchases!
                     </Box>
                 </Box>
             </Container>
