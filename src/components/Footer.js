@@ -37,7 +37,7 @@ const Footer = () => {
                 <Container>
                     <Stack>
                         <Typography className="company-name">
-                            CryptoConsultz.llc
+                            REKT.llc
                         </Typography>
                         <Divider className="dividerOne" />
                         <Divider className="dividerTwo" />
@@ -47,7 +47,7 @@ const Footer = () => {
                                     Copyright © 2018
                                 </Typography>
                                 <Typography>
-                                    Information provided through informational consulting sessions is for informational purposes only and should not be considered legal or financial advice.  You should consult with an attorney or other professional to determine what may be best for your individual needs.  CryptoConsultz LLC does not make any guarantee or other promise as to any results that may be obtained from using this service. No one should make any investment decision without first consulting his or her own financial advisor and conducting his or her own research and due diligence. To the maximum extent permitted by law, CryptoConsultz LLC disclaims any and all liability in the event any information, commentary, analysis, opinions, advice and/or recommendations prove to be inaccurate, incomplete or unreliable, or result in any investment or other losses.  Customers are required to review Terms of Service, Legal Considerations, Risk & Disclaimer carefully prior to use of CryptoConsultz LLC services.
+                                    Information provided through informational consulting sessions is for informational purposes only and should not be considered legal or financial advice.  You should consult with an attorney or other professional to determine what may be best for your individual needs.  REKT LLC does not make any guarantee or other promise as to any results that may be obtained from using this service. No one should make any investment decision without first consulting his or her own financial advisor and conducting his or her own research and due diligence. To the maximum extent permitted by law, REKT LLC disclaims any and all liability in the event any information, commentary, analysis, opinions, advice and/or recommendations prove to be inaccurate, incomplete or unreliable, or result in any investment or other losses.  Customers are required to review Terms of Service, Legal Considerations, Risk & Disclaimer carefully prior to use of REKT LLC services.
                                 </Typography>
                                 <br />
                                 <Typography>
