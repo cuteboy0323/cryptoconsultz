@@ -71,19 +71,19 @@ const CustomerService = () => {
                     <Box component="br" />
                     <Box component="br" />
                     <FormControl fullWidth>
-                        <InputLabel color="secondary">Are you currently a CryptoConsultz customer? *</InputLabel>
+                        <InputLabel color="secondary">Are you currently a REKT customer? *</InputLabel>
                         <Select
                             labelId="demo-simple-select-label"
                             color="secondary"
                             value={isCustomer}
-                            label="Are you currently a CryptoConsultz customer? *"
+                            label="Are you currently a REKT customer? *"
                             required
                             onChange={customerChange}
                         >
                             <MenuItem value={1}>Yes- I have completed a consultation with a consultant.</MenuItem>
                             <MenuItem value={2}>No but I am interested in the services.</MenuItem>
                             <MenuItem value={3}>Yes I have scheduled but not completed a consultation with a consultant.</MenuItem>
-                            <MenuItem value={4}>No I am not currently a CryptoConsultz customer.</MenuItem>
+                            <MenuItem value={4}>No I am not currently a REKT customer.</MenuItem>
                             <MenuItem value={5}>Other</MenuItem>
                         </Select>
                     </FormControl>
